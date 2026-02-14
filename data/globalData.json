@@ -1,77 +1,46 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Embrace Our World Orthodontics",
+  "domain": "https://www.embraceourworld.com",
+  "email": "nikkib@embraceourworld.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "314-842-4105",
+    "href": "tel:+13148424105",
+    "aria": "3 1 4, 8 4 2, 4 1 0 5"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "St. Louis Office",
       "address": {
-        "street": "9650 Main Street",
-        "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "street": "12111 Tesson Ferry Rd",
+        "suite": "Professional Center, Tesson Ferry Dental Plaza",
+        "city_state": "St. Louis, MO 63128",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-90.3662074",
+          "latitude": "38.518166"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "314-842-4105",
+        "href": "tel:+13148424105"
       },
-      "email": "info@mandtortho.com",
+      "email": "nikkib@embraceourworld.com",
       "hours": [
         {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Mon - Thu",
+          "time": "7:30am - 5:00pm"
         },
         {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Fri",
+          "time": "Closed"
         },
         {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
-        },
-        {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
-        },
-        {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "day": "Sat - Sun",
+          "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "Get Directions"
-      },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
-      "hours": [],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/place/Embrace+Our+World+Orthodontics/@38.518166,-90.366207,15z/data=!4m5!3m4!1s0x0:0xf82d6dcae40e726d!8m2!3d38.518166!4d-90.3662074?hl=en-US",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -94,28 +63,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "tooth-outline",
+        "text": "12111 Tesson Ferry Rd, St. Louis, MO 63128",
+        "href": "https://www.google.com/maps/place/Embrace+Our+World+Orthodontics/@38.518166,-90.366207,15z/data=!4m5!3m4!1s0x0:0xf82d6dcae40e726d!8m2!3d38.518166!4d-90.3662074?hl=en-US",
+        "label": "View 12111 Tesson Ferry Rd, St. Louis, MO 63128 on Google Maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "314-842-4105",
+        "href": "tel:+13148424105",
+        "label": "Call 3 1 4. 8 4 2. 4 1 0 5.",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "COVID-19 Update",
+      "text": "Click to learn how we keep patients safe during visits.",
+      "mobile_text": "COVID-19 Update",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "COVID-19 Update",
+        "text": "<p>We continue to follow CDC and local health guidelines to keep patients and staff safe. If you have questions about masks, screening, or appointment procedures, please call our office at 314-842-4105.</p>"
       }
     }
   },
@@ -124,14 +93,14 @@
     "buttons": [
       {
         "button": {
-          "type": "nuxt",
+          "type": "openchair",
           "style": "primary",
           "label": "Schedule Consultation",
           "aria_label": "Schedule a consultation",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
+          "href": "https://edgebooking.ortho2.com/search?catalog=4ec6268f-8d0b-44e7-bdd7-85959d0a7263&code=dxllgo&cellrequired=true",
+          "path": "",
+          "hash": "",
+          "external": true,
           "include_icon": true,
           "icon": "tooth-two-v2",
           "color": "primary"
@@ -150,7 +119,15 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
+        "href": "https://www.facebook.com/embraceourworldorthodontics",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://www.instagram.com/embraceourworldortho/",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCmy7EpLC24gInvaod2706Kg",
         "icon": "youtube"
       }
     ],
@@ -158,12 +135,12 @@
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Embrace Our World Orthodontics",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://www.embraceourworld.com/wp-content/uploads/2023/01/logo.png",
       "webp": "",
-      "alt": "",
+      "alt": "Embrace Our World Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
